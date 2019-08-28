@@ -4,8 +4,8 @@ const superagent = require('superagent');
 const Users = require('../users-model.js');
 
 const API = 'http://localhost:3000';
-const AWS = 'https://class-12-lab.auth.us-east-2.amazoncongnito.com';
-const SERVICE = 'https://www.googleapis.com/plus/v1/people/me/openIdConnect';
+const AWS = 'https://class-12-lab.auth.us-east-2.amazoncognito.com/oauth2/token';
+const SERVICE = 'https://class-12-lab.auth.us-east-2.amazoncongnito.com/oauth2/userInfo';
 
 let authorize = (request) => {
   
