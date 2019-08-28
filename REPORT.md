@@ -20,10 +20,11 @@ Difficult to use and hard to read documentation. Did not get far enough to comme
 
 ### Ratings and Reviews
 #### Documentation
-TBD
+* [0Auth](https://oauth.net/2/)
+* [AWS](https://docs.aws.amazon.com/cognito/latest/developerguide/login-endpoint.html)
 
 #### Systems Requirements
-TBD
+* MongoDB or MongoDB Atlas
 
 #### Ramp-Up Projections
 At least a few days. 
