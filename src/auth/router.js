@@ -5,7 +5,7 @@ const authRouter = express.Router();
 
 const User = require('./users-model.js');
 const auth = require('./middleware.js');
-const oauth = require('./oauth/google.js');
+const oauth = require('./oauth/aws-cognito.js');
 
 authRouter.post('/signup', (req, res, next) => {
   let user = new User(req.body);
